@@ -1,0 +1,14 @@
+https://medium.com/@ThomasTan/installing-nginx-in-mac-os-x-maverick-with-homebrew-d8867b7e8a5a
+
+brew install nginx
+sudo nginx
+
+Open Navigator it by going to URL:
+http://localhost:8080
+
+sudo nginx -s stop
+
+vim /usr/local/etc/nginx/nginx.conf
+
+command cronf file save :w close :qi
+
