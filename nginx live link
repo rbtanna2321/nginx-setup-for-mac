@@ -67,3 +67,6 @@ location / {
 }
 After change relaunch nginix server and nginx is now serving pages from your custom folder!
 enjoy!
+
+// How to check log command //
+sudo tail -f 1000 {{ log filename enter without bracket}} 
