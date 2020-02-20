@@ -70,3 +70,10 @@ enjoy!
 
 // How to check log command //
 sudo tail -f 1000 {{ log filename enter without bracket}} 
+
+//how to path check using command //
+pwd
+// how to located install packages like, node angular nginx
+ex:- which node
+// folder locked open command
+sudo chmode -R 777
