@@ -77,3 +77,6 @@ pwd
 ex:- which node
 // folder locked open command
 sudo chmode -R 777
+
+//************ this command is used ti space increse error solved in angular ng serve --prod **********//
+node --max-old-space-size=6990 node_modules/@angular/cli/bin/ng serve --prod
